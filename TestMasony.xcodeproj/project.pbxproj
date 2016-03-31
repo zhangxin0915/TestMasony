@@ -27,6 +27,7 @@
 		9A4341F31CABD4D700DDC453 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4341E51CABD4D700DDC453 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		9A4341F41CABD4D700DDC453 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4341E71CABD4D700DDC453 /* View+MASAdditions.m */; };
 		9A4341F51CABD4D700DDC453 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4341EA1CABD4D700DDC453 /* ViewController+MASAdditions.m */; };
+		9A521D091CAD04E10022FD10 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A521D081CAD04E00022FD10 /* OneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,8 @@
 		9A4341E81CABD4D700DDC453 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		9A4341E91CABD4D700DDC453 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		9A4341EA1CABD4D700DDC453 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		9A521D071CAD04E00022FD10 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		9A521D081CAD04E00022FD10 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 				9A43419D1CABD47000DDC453 /* AppDelegate.m */,
 				9A43419F1CABD47000DDC453 /* ViewController.h */,
 				9A4341A01CABD47000DDC453 /* ViewController.m */,
+				9A521D071CAD04E00022FD10 /* OneViewController.h */,
+				9A521D081CAD04E00022FD10 /* OneViewController.m */,
 				9A4341A21CABD47000DDC453 /* Main.storyboard */,
 				9A4341D01CABD4D700DDC453 /* Masonry */,
 				9A4341A81CABD47000DDC453 /* Assets.xcassets */,
@@ -351,6 +356,7 @@
 				9A4341ED1CABD4D700DDC453 /* MASConstraint.m in Sources */,
 				9A4341F51CABD4D700DDC453 /* ViewController+MASAdditions.m in Sources */,
 				9A4341EF1CABD4D700DDC453 /* MASLayoutConstraint.m in Sources */,
+				9A521D091CAD04E10022FD10 /* OneViewController.m in Sources */,
 				9A4341F21CABD4D700DDC453 /* NSArray+MASAdditions.m in Sources */,
 				9A4341F11CABD4D700DDC453 /* MASViewConstraint.m in Sources */,
 				9A4341F01CABD4D700DDC453 /* MASViewAttribute.m in Sources */,
@@ -582,6 +588,7 @@
 				9A4341C81CABD47100DDC453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A4341C91CABD47100DDC453 /* Build configuration list for PBXNativeTarget "TestMasonyTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +597,7 @@
 				9A4341CB1CABD47100DDC453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A4341CC1CABD47100DDC453 /* Build configuration list for PBXNativeTarget "TestMasonyUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +606,7 @@
 				9A4341CE1CABD47100DDC453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

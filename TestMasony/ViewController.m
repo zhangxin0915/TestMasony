@@ -23,30 +23,28 @@ const NSInteger kImgViewWidth = 110;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIImageView *cardImgView = [[UIImageView alloc]init];
-    cardImgView.image = [UIImage imageNamed:@"signCard"];
-    [self.view addSubview:cardImgView];
-    
-    UIImageView *codeImgView = [[UIImageView alloc]init];
-    codeImgView.image = [UIImage imageNamed:@"signCode"];
-    [self.view addSubview:codeImgView];
-    
-//    CGFloat padding = kSCREN_BOUNDS.size.width - (kImgViewWidth * 2) - 20;
-    
-    [cardImgView mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.centerY.mas_equalTo(self.view.mas_centerY);
-        make.top.mas_equalTo(self.view.mas_top).with.offset(100);
-        make.left.mas_equalTo(self.view.mas_left).with.offset(25);
-        make.width.mas_equalTo(@(kImgViewWidth));
-        make.height.mas_equalTo(@(kImgViewWidth));
-        }];
-    [codeImgView mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.centerY.mas_equalTo(self.view.mas_centerY);
-        make.top.mas_equalTo(self.view.mas_top).with.offset(100);
-        make.right.mas_equalTo(self.view.mas_right).with.offset(-25);
-        make.width.mas_equalTo(@(kImgViewWidth));
-        make.height.mas_equalTo(@(kImgViewWidth));
-        }];
+//    UIImageView *cardImgView = [[UIImageView alloc]init];
+//    cardImgView.image = [UIImage imageNamed:@"signCard"];
+//    [self.view addSubview:cardImgView];
+//    
+//    UIImageView *codeImgView = [[UIImageView alloc]init];
+//    codeImgView.image = [UIImage imageNamed:@"signCode"];
+//    [self.view addSubview:codeImgView];
+//    
+//    
+//    //固定大小，左右边距 25
+//    [cardImgView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.mas_equalTo(self.view.mas_top).with.offset(100);
+//        make.left.mas_equalTo(self.view.mas_left).with.offset(25);
+//        make.width.mas_equalTo(@(kImgViewWidth));
+//        make.height.mas_equalTo(@(kImgViewWidth));
+//        }];
+//    [codeImgView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.mas_equalTo(self.view.mas_top).with.offset(100);
+//        make.right.mas_equalTo(self.view.mas_right).with.offset(-25);
+//        make.width.mas_equalTo(@(kImgViewWidth));
+//        make.height.mas_equalTo(@(kImgViewWidth));
+//        }];
     
     //二等分
 //    int padding1 = 10;
@@ -67,13 +65,6 @@ const NSInteger kImgViewWidth = 110;
 //    }];
     
     
-    
-    
-
-
-    
-    
-
 }
 
 - (void)didReceiveMemoryWarning {
